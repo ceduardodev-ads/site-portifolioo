@@ -14,6 +14,7 @@ JavaScript
 
 
 🎯 Funcionalidades
+scripts de detalhes em javascript
 Apresentação pessoal
 Listagem de projetos
 Contato direto
@@ -28,6 +29,6 @@ Layout responsivo
 
 
 📞 Contato
-Email: seuemail@email.com
+Email: eduardogomeslins07@gmail.com
 Instagram: @c.duduxs
 GitHub: https://github.com/ceduardodev-ads
