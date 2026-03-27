@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width
+  , initial-scale=1.0">
+    <title>portifolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navegaçao">
+        <!-- Início da barra de navegação -->
+        <ul class="menu">
+            <!-- Lista de itens do menu -->
+            <li>
+                <a href="#inicio" class="menu-link">inicio</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">sobre</a>
+            </li>
+            <li>
+                <a href="#habilidades" class="menu-link">habilidades</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">contatos</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Fim da barra de navegação -->
+
+    <main id="inicio" class="cabeçalho">
+        <!--foto -->
+        <img src="./img/foto portifolio.jpeg" alt="foto de perfil" class="foto-perfil">
+        <h1>
+            <span id="digitando">carlos eduardo</span>
+
+        </h1>
+        <p class="cabeçalho-subtitulo">desenvolvedor full stack</p>
+
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 id="sobre-titulo">sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá! Sou o carlos eduardo, estudante de Análise e Desenvolvimento de Sistemas, com grande interesse na área de desenvolvimento de software. Busco minha primeira oportunidade em TI para adquirir experiência prática e evoluir profissionalmente. Tenho como
+                objetivo me tornar um desenvolvedor Full Stack, trabalhando com tecnologias de desenvolvimento web tanto no front-end quanto no back-end. Sou dedicado, proativo e estou sempre buscando aprender novas ferramentas e tecnologias da área..
+            </p>
+        </div>
+        <!-- Fim da seção "sobre" -->
+    </section>
+    </section>
+    <!-- fim da seção sobre -->
+    <section id="habilidades" class="habilidades">
+
+        <h2 class="habilidades-titulo">Habilidades</h2>
+
+        <div class="habilidades-caixa">
+
+            <div class="skill skill-html" data-level="85">
+                <span class="nivel">avançado</span>
+                <img src="./pack de ícones de desenvolvedor/html.svg">
+                <span>HTML</span>
+                <span class="percentual">0%</span>
+            </div>
+
+            <div class="skill skill-css" data-level="80">
+                <span class="nivel">avançado</span>
+                <img src="./pack de ícones de desenvolvedor/css.svg">
+                <span>CSS</span>
+                <span class="percentual">0%</span>
+            </div>
+
+            <div class="skill skill-javascript" data-level="75">
+                <span class="nivel">avançado</span>
+                <img src="./pack de ícones de desenvolvedor/javascript.svg">
+                <span>JavaScript</span>
+                <span class="percentual">0%</span>
+            </div>
+
+            <div class="skill skill-dotnet" data-level="65">
+                <span class="nivel">Intermediário</span>
+                <img src="./pack de ícones de desenvolvedor/dotnet.svg">
+                <span>.NET</span>
+                <span class="percentual">0%</span>
+            </div>
+
+            <div class="skill skill-git" data-level="80">
+                <span class="nivel">avançado</span>
+                <img src="./pack de ícones de desenvolvedor/git.svg">
+                <span>Git</span>
+                <span class="percentual">0%</span>
+            </div>
+
+            <div class="skill skill-github" data-level="85">
+                <span class="nivel">avançado</span>
+                <img src="./pack de ícones de desenvolvedor/github.svg">
+                <span>GitHub</span>
+                <span class="percentual">0%</span>
+            </div>
+
+        </div>
+
+
+
+        <!-- Fim da seção "projetos" -->
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contato-titulo">contatos</h2>
+
+        <form class="formulario-contato" id="formulario-contato">
+
+            <div class="grupo-formulario">
+                <input type="text" name="nome" placeholder="Nome" class="campo-formulario" required>
+            </div>
+
+            <div class="grupo-formulario">
+                <input type="email" name="email" placeholder="Email" class="campo-formulario" required>
+            </div>
+
+
+
+            <div class="grupo-formulario">
+                <textarea name="mensagem" class="texto-formulario" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+
+
+            <button type="submit" class="botao-formulario">
+          Enviar mensagem
+        </button>
+
+        </form>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/carlos-eduardo77" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ceduardodev-ads" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/c.duduxs/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <script src="./site.js"></script>
+</body>
+
+</html>

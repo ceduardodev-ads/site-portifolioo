@@ -1,5 +1,4 @@
-💼 site-portifolioo
-
+💼 Nome do Projeto
 
 Portfólio - Carlos Eduardo
 
@@ -12,9 +11,9 @@ HTML5
 CSS3
 JavaScript
 
+(se usar outras, adiciona aqui tipo React, Node, etc.)
 
 🎯 Funcionalidades
-scripts de detalhes em javascript
 Apresentação pessoal
 Listagem de projetos
 Contato direto
@@ -25,10 +24,10 @@ Layout responsivo
 
 
 📸 Preview
-<img width="1918" height="866" alt="Captura de tela 2026-03-27 010630" src="https://github.com/user-attachments/assets/4d6bb5dd-5507-4423-9654-7a3d2ebd9d84" />
 
+()
 
 📞 Contato
-Email: eduardogomeslins07@gmail.com      
+Email: seuemail@email.com
 Instagram: @c.duduxs
 GitHub: https://github.com/ceduardodev-ads
