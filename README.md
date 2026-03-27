@@ -29,6 +29,6 @@ Layout responsivo
 
 
 📞 Contato
-Email: eduardogomeslins07@gmail.com
+Email: eduardogomeslins07@gmail.com      
 Instagram: @c.duduxs
 GitHub: https://github.com/ceduardodev-ads
